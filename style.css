@@ -448,7 +448,11 @@ a {
 @media screen and (max-width: 770px) {
   .header-black,
   .header-white {
-    min-width: 550px;
+    min-width: 540px;
     padding: 0 10px;
+  }
+  .container {
+    padding-right: 0;
+    padding-left: 5%;
   }
 }
